@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+.nav {
+  position: absolute;
+  top: 18px;
+  left: 30px;
+  right: 30px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(6px);
+  border-radius: 20px;
+  padding: 10px 20px;
+  z-index: 999;
+    font-family: "Kalnia", serif;
+
+}
+
+.nav a {
+  text-decoration: none;
+  color: #f4ead0;
+  font-size: 25px;
+  transition: font-size 0.3s ease;
+    font-family: "Kalnia", serif;
+}
+
+.nav a:hover{
+  font-size: 30px;
+}

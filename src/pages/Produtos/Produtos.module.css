@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+
+* {
+  font-family: 'Playfair Display', serif;
+}
+
+.top {
+  min-height: 100vh;
+  background-image: url('/img/produtos.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+}
+
+.produtosH {
+  margin-left: 10px;
+  color: #e6d8a8;
+  font-size: 60px;
+}
+
+.produtos {
+  background-color: #e6d8a8;
+  padding: 60px 80px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px 80px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.item img {
+  width: 600px;
+  height: 460px;
+  object-fit: cover;
+}
+
+.item h2 {
+  color: #ff7a7a;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.item p {
+  font-size: 13px;
+  color: #5a5a5a;
+  line-height: 1.6;
+}
+
+.item span {
+  font-size: 11px;
+  color: #000;
+  letter-spacing: 1px;
+}
