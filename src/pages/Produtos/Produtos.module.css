@@ -33,14 +33,18 @@
 
 .item {
   display: flex;
+  align-items: center;
+  
   flex-direction: column;
   gap: 12px;
+
 }
 
 .item img {
-  width: 600px;
-  height: 460px;
+  width: 400px;
+  height: 100%;
   object-fit: cover;
+
 }
 
 .item h2 {
